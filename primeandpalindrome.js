@@ -10,17 +10,17 @@ for(let i =2;i<=num-1;i++){
         count++
     }
 }
-if(count==2){
-    console.log(prime number)
+if(count==0){
+    console.log("prime number")
 }else {
-    console.log(Not a prime)
+    console.log("Not a prime")
 }
 
 //code to chcek palindrome
 
 let str = "venky"
 let bag = ""
-for(let i = str.length-1;i<=0;i++){
+for(let i = str.length-1;i>=0;i--){
 bag+=str[i]
 }
 if(bag==str){
